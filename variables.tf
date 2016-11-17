@@ -29,7 +29,7 @@ variable "opsman_image_name" {
 }
 
 variable "optional_opsman_image_count" {
-  type = "integer"
+  type = "string"
 }
 
 variable "optional_opsman_image_name" {
