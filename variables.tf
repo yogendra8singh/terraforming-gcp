@@ -28,6 +28,14 @@ variable "opsman_image_name" {
   type = "string"
 }
 
+variable "optional_opsman_image_count" {
+  type = "integer"
+}
+
+variable "optional_opsman_image_name" {
+  type = "string"
+}
+
 variable "service_account_key" {
   type = "string"
 }
