@@ -35,6 +35,7 @@ variable "optional_opsman_image_count" {
 
 variable "optional_opsman_image_name" {
   type = "string"
+  default= ""
 }
 
 variable "service_account_key" {
