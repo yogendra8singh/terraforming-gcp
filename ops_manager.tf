@@ -63,6 +63,7 @@ resource "google_compute_instance" "optional-ops-manager" {
 
 resource "google_sql_database_instance" "master" {
   region = "${var.sql_region}"
+  name = "${var.env_name}-${timestamp()}"
 
   settings {
     tier = "${var.google_sql_db_tier}"
